@@ -1,0 +1,54 @@
+BUILDING MICROSERVICES WITH SPRING BOOT
+- https://www.safaribooksonline.com/library/view/building-microservices-with/9780134678658/
+
+
+Repo Git:
+ - http:github.com/livelessons-spring/
+
+Spring Overview:
+ bean lifecycle
+ - instanciate
+ - populate
+ - call beannameaware.setBeanName
+ - call beanFactoryaware.setBeanFactory
+ - preinicialization
+ - @PostConstruct
+ - PostProcessors
+
+ - @PreDestroy
+
+ - Spring MVC and Boot
+ - Spring Boot is moving fast (1.2 to 1.4)
+
+- Getting started
+ - spring-boot-cli 
+	+ (http://docs.spring.io/autorepo/docs/spring-boot/1.3.0.M1/reference/html/getting-started-installing-spring-boot.html#getting-started-installing-the-cli)
+        + SPRING_HOME and PATH to point to %SPRING_HOME%\bin
+	+ spring --version
+	+ spring run app.groovy (see groovy-based)
+	+ spring init or curl start.spring.io
+ - STS - starter project
+ - start.spring.io
+   + http://start.spring.io/starter.zip?name=harpalab-spring-sts-starter&groupId=br.com.harpalab.spring&artifactId=harpalab-spring-sts-starter&version=0.0.1-SNAPSHOT&description=Demo+project+for+Spring+Boot&packageName=br.com.harpalab.spring.starter&type=maven-project&packaging=jar&javaVersion=1.8&language=java&bootVersion=1.5.3.RELEASE&dependencies=web
+
+
+ - Starter POMs
+    + http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle#using-boot-starter-poms
+
+ - Package runnable Jar 
+    + spring jar <jar-file-name>.jar <groovy-file-name>.groovy
+    + mvn clean package ---> target/<jar-file-name>
+
+ - Start App
+  - spring run <groovy-file>.groovy
+  - mvn spring-boot:run
+    + RUN: java -jar <jar-file-name>.jar
+
+
+- Twelve-factor app configuration:
+ - 12factor.net/config
+
+- Spring Cloud Configuration Server
+ - spring.cloud.config.server.git.uri
+
+
