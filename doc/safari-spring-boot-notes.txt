@@ -31,6 +31,12 @@ Spring Overview:
  - start.spring.io
    + http://start.spring.io/starter.zip?name=harpalab-spring-sts-starter&groupId=br.com.harpalab.spring&artifactId=harpalab-spring-sts-starter&version=0.0.1-SNAPSHOT&description=Demo+project+for+Spring+Boot&packageName=br.com.harpalab.spring.starter&type=maven-project&packaging=jar&javaVersion=1.8&language=java&bootVersion=1.5.3.RELEASE&dependencies=web
 
+curl http://start.spring.io/starter.zip?name=harpalab-msa-config-server&gr
+oupId=br.com.harpalab.spring&artifactId=harpalab-msa-config-server&version=1
+.0.0-SNAPSHOT&description=MSA+Config+Server+Project&packageName=br.com.harpa
+lab.msa.config&type=maven-project&packaging=jar&javaVersion=1.8&language=jav
+a&bootVersion=1.5.3.RELEASE&dependencies=web
+
 
  - Starter POMs
     + http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle#using-boot-starter-poms
